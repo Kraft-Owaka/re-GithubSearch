@@ -8,43 +8,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Search</title>
 </head>
-<body>
+    <body>
 
-    
+        <div class = "container">    
+            <div class="row">
+                <div class="col-md-12">
 
-    <form (ngSubmit)='userDetails()' #searchForm='ngForm'>
-            <div class="form-group">
-                <input type="text" class="form-control bg-warning" placeholder="Pease Github Username" [(ngModel)]="username"
-                    name="username" (keyup)="userDetails()" id="entergit">
-            </div>
-    </form>
-        <div class="row">
-            <div class="avatar image1">
-                <img class="circle-image" src="{{profile.avatar_url}}"  alt="Profile Image">
-            </div>
-        </div>
-        <div class="row" id="repotag" appMouseover>User Repos</div>
-        <div class="row" id ="reporow">
-            <div class="card col-lg-5 ml-3 " *ngFor="let repo of repos" id="repolist">
-                <div class="row">
-                                <div class="col-md-9">
-                                <h3 id ="reponame" appMouseover>{{repo.name}}</h3>
-                                <p>{{repo.description}}</p>
-        
-                                <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-info">Look up on github</a>
-                                </h4>
+                    <form (ngSubmit)='userDetails()' #searchForm='ngForm'>
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-warning" placeholder="Pease Github Username" [(ngModel)]="username"
+                                    name="username" (keyup)="userDetails()" id="entergit">
                             </div>
-        
-                            <div class="col-md-3">
-                                <span class="btn btn-success">{{repo.forks}} Number of Forks </span>
-                            </div>
-        
+                    </form>
+                    <div class="row">
+                        <div class="avatar image1">
+                            <img class="circle-image" src="{{profile.avatar_url}}"  alt="Profile Image">
                         </div>
-                        <hr>
                     </div>
+                    <div class="row" id="repotag" appMouseover>User Repos</div>
+                    <div class="row" id ="reporow">
+                        <div class="card col-lg-5 ml-3 " *ngFor="let repo of repos" id="repolist">
+                            <div class="row">
+                                            <div class="col-md-9">
+                                            <h3 id ="reponame" appMouseover>{{repo.name}}</h3>
+                                            <p>{{repo.description}}</p>
+                    
+                                            <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-info">Look up on github</a>
+                                            </h4>
+                                        </div>
+                    
+                                        <div class="col-md-3">
+                                            <span class="btn btn-success">{{repo.forks}} Number of Forks </span>
+                                        </div>
+                    
+                                    </div>
+                                    <hr>
+                                </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-</body>
+            
+    </body>
 </html>
 
      
