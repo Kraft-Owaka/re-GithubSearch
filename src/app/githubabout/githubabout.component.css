@@ -1,0 +1,12 @@
+.container-fluid {
+    widows: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+
+#hubsearch{
+    margin-left:-15%;
+    margin-top: 250px;
+    font-size:40px;
+}
