@@ -12,6 +12,7 @@ The website basically works in a way that you can search you Github account and 
 <img src = "./src/assets/Screenshotfrom 2020-01-23 18-15-46.png">
 <img src ="./src/assets/Screenshotfrom 2020-01-23 18-15-55.png">
 <img src ="./src/assets/Screenshotfrom 2020-01-23 18-16-01.png">
+<img src ="./src/assets/images.jpeg">
 
 ### Technologies Used
 This project was generated with Angular CLI version 7.1.4.
