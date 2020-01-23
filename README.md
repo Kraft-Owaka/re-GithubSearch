@@ -9,9 +9,9 @@ Owaka Kraft
 The website basically works in a way that you can search you Github account and get to explore and get to view your account in Github. The project basically uses the github API to collect information that are required. When you enter the github name on the search bar you will see the profile.
 
 #### [! Read me image and the appliationimage](link-to-image)]
-<img src = "./src/assets/Screenshotfrom 2020-01-23 18-15-46.png">
-<img src ="./src/assets/Screenshotfrom 2020-01-23 18-15-55.png">
-<img src ="./src/assets/Screenshotfrom 2020-01-23 18-16-01.png">
+<img src = "./src/assets/Screenshotfrom.png">
+<img src ="./src/assets/Screenshotfrom1.png">
+<img src ="./src/assets/Screenshotfrom2.png">
 <img src ="./src/assets/images.jpeg">
 
 ### Technologies Used
