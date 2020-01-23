@@ -9,10 +9,9 @@ Owaka Kraft
 The website basically works in a way that you can search you Github account and get to explore and get to view your account in Github. The project basically uses the github API to collect information that are required. When you enter the github name on the search bar you will see the profile.
 
 #### [! Read me image and the appliationimage](link-to-image)]
-<img src = "./src/assets/Screenshotfrom.jpeg">
-<img src ="./src/assets/Screenshotfrom1.jpeg">
-<img src ="./src/assets/Screenshotfrom2.pjeg">
-<img src ="./src/assets/images.jpeg">
+<img src ="./src/assets/Screenshotfrom.png">
+<img src ="./src/assets/Screenshotfrom1.png">
+<img src ="./src/assets/Screenshotfrom2.png">
 
 ### Technologies Used
 This project was generated with Angular CLI version 7.1.4.
