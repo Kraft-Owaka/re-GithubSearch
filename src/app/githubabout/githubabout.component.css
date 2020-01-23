@@ -1,5 +1,5 @@
 .container-fluid {
-    widows: 100%;
+    widows: 90%;
     height: 100vh;
     position: absolute;
 }
@@ -9,4 +9,11 @@
     margin-left:-15%;
     margin-top: 250px;
     font-size:40px;
+}
+
+.body{
+    background-color: palegoldenrod;
+}
+.hub{
+    background-color: burlywood;
 }
