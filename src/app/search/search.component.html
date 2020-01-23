@@ -29,21 +29,22 @@
                     <div class="row" id ="reporow">
                         <div class="card col-lg-5 ml-3 " *ngFor="let repo of repos" id="repolist">
                             <div class="row">
-                                            <div class="col-md-9">
-                                            <h3 id ="reponame" appMouseover>{{repo.name}}</h3>
-                                            <p>{{repo.description}}</p>
+                                <div class="col-md-9">
+                                    <h3 id ="reponame" appMouseover>{{repo.name}}</h3>
+                                    <p>{{repo.description}}</p>
                     
-                                            <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-info">Look up on github</a>
-                                            </h4>
-                                        </div>
-                    
-                                        <div class="col-md-3">
-                                            <span class="btn btn-success">{{repo.forks}} Number of Forks </span>
-                                        </div>
-                    
-                                    </div>
-                                    <hr>
+                                    <h4>
+                                        <a href="{{repo.html_url}}" target="_blank" class="btn btn-info">Look up on github</a>
+                                    </h4>
                                 </div>
+                    
+                                    <div class="col-md-3">
+                                        <span class="btn btn-success">{{repo.forks}} Number of Forks </span>
+                                    </div>
+                    
+                            </div>
+                                <hr>
+                        </div>
                     </div>
                 </div>
             </div>
