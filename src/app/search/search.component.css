@@ -4,5 +4,13 @@
 .avatar{
     align-content:center;
     margin-left: 30%;
+    outline: cyan;
 
+}
+body{
+    background-color: palegoldenrod;
+    background-image: url(/src/assets/images.jpeg);
+}
+.form-group{
+    color: springgreen;
 }

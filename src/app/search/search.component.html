@@ -14,10 +14,10 @@
 
     <form (ngSubmit)='userDetails()' #searchForm='ngForm'>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter Github Username" [(ngModel)]="username"
+                <input type="text" class="form-control bg-warning" placeholder="Pease Github Username" [(ngModel)]="username"
                     name="username" (keyup)="userDetails()" id="entergit">
             </div>
-        </form>
+    </form>
         <div class="row">
             <div class="avatar image1">
                 <img class="circle-image" src="{{profile.avatar_url}}"  alt="Profile Image">
@@ -31,7 +31,7 @@
                                 <h3 id ="reponame" appMouseover>{{repo.name}}</h3>
                                 <p>{{repo.description}}</p>
         
-                                <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-danger">See on github</a>
+                                <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-info">Look up on github</a>
                                 </h4>
                             </div>
         
